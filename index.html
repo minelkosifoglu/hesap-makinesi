@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+            </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row flex-column justify-content-center" style="height: 35rem; background-color:black; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;border-radius: 120px;">
+            <div class="col-sm d-flex justify-content-center align-items-center">
+                <span style="font-size: 50px; font-family:'Smooch', cursive; color: white;" >Calculator</span>
+            </div>
+            <div class="col-sm  d-flex justify-content-center align-items-center">
+                <label>
+                    <input class="containerButton" type="text" id="n1" placeholder="Number 1"
+                        style="height:4rem ; border-radius: 10px; box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+                </label>
+            </div>
+            <div class="col-sm d-flex justify-content-center align-items-center">
+                <label>
+                    <input class="containerButton" type="text" id="n2" placeholder=" Number 2"
+                        style="height: 4rem; border-radius: 10px;box-shadow: hsl(238, 100%, 67%) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+                </label>
+            </div>
+            <div class="col-sm d-flex justify-content-around align-items-center">
+                <input class="calcubutton" type="button" value="+" id="toplam"
+                    style=" height: 3rem; width: 3rem; border-radius: 3px;box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+                <input class="calcubutton" type="button" value="-" id="cikartma"
+                    style="height: 3rem; width: 
+                3rem; border-radius: 3px; box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+                <input class="calcubutton" type="button" value="/" id="bolum"
+                    style="height: 3rem; width: 3rem; border-radius: 3px; box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+                <input class="calcubutton" type="button" value="*" id="carpma"
+                    style="height: 3rem; width: 3rem; border-radius: 3px; box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;">
+
+
+            </div>
+
+            <div class="col-sm d-flex justify-content-center" 
+                style="color:black; " >
+            <div class="col-1 d-flex align-items-center justify-content-around "id="collection" style="height: 70%;width: 9rem;border-radius: 35px;box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; background-color: aliceblue;"</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
